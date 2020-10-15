@@ -1,0 +1,9 @@
+<div>
+    <h2>Profile Display Component</h2>
+    <h3>Name: {{profile.name | uppercase}}</h3>
+    <h3>Dob: {{profile.dob | date}}</h3>
+    <h3>Dob (dd/MMM/yyyy): {{profile.dob | date : 'dd/MMM/yyyy'}}</h3>
+    <h4>Salary is {{salary | currency}}</h4>
+    <h4>Salary INR {{salary | currency : 'INR'}}</h4>
+    <h4>Salary JPY {{salary | currency : 'JPY'}}</h4>
+</div>

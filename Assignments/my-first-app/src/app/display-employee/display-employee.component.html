@@ -1,0 +1,23 @@
+<div>
+    <h2>Employee Details</h2>
+    <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>DOB</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr  *ngFor = "let employee of employeeArray">
+            <td>{{ employee.id }}</td>
+            <td>{{ employee.name }}</td>
+            <td>{{ employee.salary }}</td>
+            <td>{{ employee.dob}}</td>
+          </tr>
+        </tbody>
+      </table>
+ </div>
+ 
+  
